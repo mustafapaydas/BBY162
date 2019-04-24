@@ -1,12 +1,12 @@
 import random
-import sys
+
 
 adamCan = 5
 
 kelime = ["kaplan" "aslan", "belgesel", "ayak", "ayakkabı", "hastane", "okul", "elektrik",
  "tahta", "makine", "kelime", "ceviz", "araba", "baklava", "kundura"]
 
-kelime_tahmie = []
+kelime_tahmin = []
 gizli_kelime = random.choice(kelime)
 kelime_uzunluğu = len(gizli_kelime)
 alfabe = "abcçdefgğhıijklmnoöprsştuüvyz"
